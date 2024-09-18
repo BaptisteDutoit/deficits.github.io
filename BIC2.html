@@ -18,6 +18,7 @@
             padding: 20px;
             background: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Added to center the button */
         }
         h1 {
             text-align: center;
@@ -27,17 +28,32 @@
             text-align: justify;
             margin: 10px 0;
         }
+        .button-container {
+            margin-top: 20px;
+        }
+        .home-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .home-button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Déficits des locations meublées non professionnelles (BIC)</h1>
-
         <p>
-         Les déficits résultant de l’activité de location meublée non professionnelle sont imputables uniquement sur les revenus de location 
-	meublée non professionnelle de la même année et des dix 
-	années suivantes.
+            Les déficits résultant de l’activité de location meublée non professionnelle sont imputables uniquement sur les revenus de location meublée non professionnelle de la même année et des dix années suivantes.
         </p>
+        <div class="button-container">
+            <a href="index.html" class="home-button">Accueil</a>
+        </div>
     </div>
 </body>
 </html>
